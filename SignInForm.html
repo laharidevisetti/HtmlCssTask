@@ -1,0 +1,171 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Roboto|Courgette|Pacifico:400,700" rel="stylesheet">
+<title>Bootstrap Start Free Trail Sign up Form</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+<style type="text/css">
+	body{
+		color: #999;
+		background: #e2e2e2;
+		font-family: 'Roboto', sans-serif;
+	}
+	.form-control{
+		min-height: 41px;
+		box-shadow: none;
+		border-color: #e1e1e1;
+	}
+	.form-control:focus{
+		border-color: #00cb82;
+	}	
+    .form-control, .btn{        
+        border-radius: 3px;
+    }
+.form-control, .btn1{        
+        border-radius: 3px;
+        color:white;
+	width:100%;
+    }
+.form-control, .btn2{        
+        border-radius: 3px;
+        color:white;
+    }
+	.form-header{
+		margin: -30px -30px 20px;
+		padding: 30px 30px 10px;
+		text-align: center;
+		background: #4dffff;
+		border-bottom: 1px solid #eee;
+		color: #fff;
+	}
+	.form-header h2{
+		font-size: 34px;
+		font-weight: bold;
+        margin: 0 0 10px;
+		font-family: 'Pacifico', sans-serif;
+    }
+	.form-header p{
+		margin: 20px 0 15px;
+		font-size: 17px;
+		line-height: normal;
+		font-family: 'Courgette', sans-serif;
+	}
+    .signup-form{
+		width: 400px;
+                length:800px;
+		margin: 0 auto;	
+		padding: 30px 0;	
+	}
+    .signup-form form{
+		color: #999;
+		border-radius: 3px;
+    	margin-bottom: 15px;
+        background: white;
+        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+        padding: 30px;
+        length:300px;
+    }
+	.signup-form .form-group{
+		margin-bottom: 20px;
+	}		
+	.signup-form label{
+		font-weight: normal;
+		font-size: 13px;
+	}
+    .signup-form input[type="checkbox"]{
+		margin-top: 2px;
+	}
+    .signup-form .btn{        
+        font-size: 16px;
+        font-weight: bold;
+		background: #66d9ff;
+		border: none;
+		min-width: 100px;
+    }
+    .signup-form .btn1{        
+        font-size: 16px;
+        font-weight: bold;
+
+		background:#ff1a1a;
+		border: none;
+		width: 100px;
+    }
+    .signup-form .btn2{        
+        font-size: 16px;
+        font-weight: bold;
+		background:#3366ff;
+		border: none;
+		width: 100px;
+    }
+	.signup-form .btn:hover, .signup-form .btn:focus{
+		background: #00b073 !important;
+        	outline: none;
+	}
+	.signup-form .btn1:hover, .signup-form .btn1:focus{
+		width:100%;
+		background: #00b073 !important;
+        	outline: none;
+	}
+.signup-form .btn2:hover, .signup-form .btn2:focus{
+		width:100%;
+		background: #00b073 !important;
+        outline: none;
+	}
+    .signup-form a{
+		color: #66d9ff;		
+	}
+    .signup-form a:hover{
+		text-decoration: underline;
+	}
+    img{
+		right-padding:20px;
+		height:40px;
+                weight:40px;
+
+        }
+#funkystyling {
+    background: white url(D:/Epam/mail.png) right no-repeat;
+    padding-right: 17px;
+}
+#funkystyling1 {
+    background: white url(D:/Epam/lock.png) right no-repeat;
+    padding-right: 17px;
+}
+</style>
+</head>
+<body>
+<div class="signup-form">
+    <form action="/examples/actions/confirmation.php" method="post">
+		<div class="form-header">
+			<h2><img src = "C:\Users\dell\Pictures\Saved Pictures\pep.jpg">Sign In</h2>
+		</div>
+        <div class="form-group">
+			<label>Email</label>
+        	<input type="text" class="form-control" name="Email" required="required" id="funkystyling" >
+        </div>
+        <div class="form-group">
+			<label>Password</label>
+        	<input type="password" class="form-control" name="password" required="required"id="funkystyling1">
+        </div>
+	<div class="form-group">
+		<button type="submit" class="btn btn-primary btn-block btn-lg">Sign Up</button>
+	</div>
+       <div class="text-left small"><a href="#">Forgot your password?</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a href="#">Register?</a></div>
+	<div class="form-group">
+		<button type="submit" class="btn1 btn1-primary btn1-block btn1-lg" >Google</button>
+	</div><div class="form-group">
+		<button type="submit" class="btn2 btn2-primary btn2-block btn2-lg">Facebook</button>
+	</div>
+<div class="form-group">
+		<button type="submit" class="btn btn-primary btn-block btn-lg">Epam Login</button>
+	</div>
+    </form>
+</div>
+</body>
+</html>
